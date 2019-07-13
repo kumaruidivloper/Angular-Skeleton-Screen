@@ -6,6 +6,25 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Bootstrap Install 
+bootstrap Login: https://bootsnipp.com/snippets/GaZG0
+ng new <AppName> --style=scss --routing
+
+Install BootStrap
+Step1: npm install bootstrap --save
+Step2: Open angular.json
+"styles": [
+  "src/styles.scss",
+  "node_modules/bootstrap/dist/css/bootstrap.min.css"
+],  ----- [or] -------
+
+There are many ways to do that. The simpest method is by using the [src/styles.css]file and adding the following code:
+URL: https://www.techiediaries.com/angular-bootstrap-ui/
+@import "~bootstrap/dist/css/bootstrap.css";
+
+## Angular Skeleton Refrence
+https://stackblitz.com/edit/angular-wsfxgd-skeleton-screen?file=src%2Fapp%2Fhello.component.ts
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
